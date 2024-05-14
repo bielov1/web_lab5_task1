@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Завдання №1</title>
+        <link rel="stylesheet" type="" href="styles.css"/>
+        <script defer src="./script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <label for="arrLen">Введіть розмір для згенерованого масива A</label>
+            <input type="number" id="arrLen"/>
+            <button onclick="generateArr()">Згенерувати</button>
+
+            <div class="resutls">
+                <h3>Масив А:</h3>
+                <p id="inputArray"></p>
+
+                <h3>Максимальний:</h3>
+                <p id="max"></p>
+
+                <h3>Мінімальний:</h3>
+                <p id="min"></p>
+
+                <h3>Заміна елементів:</h3>
+                <p id="original"></p>
+                <p id="swap"></p>
+
+                <h3>Сортування масиву за зростанням методом вставки</h3>
+                <p id="sortedArr"></p>
+            </div>
+        </div>
+    </body>
+</html>
